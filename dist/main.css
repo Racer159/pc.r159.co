@@ -397,12 +397,16 @@ font-size: var(--r-heading2-size);
     }
 }
 
+.r159-main-logo {
+    border-radius: 50%;
+    background-color: var(--r-link-color);
+}
+
 .r159-logo {
     width: 128px;
     height: 128px;
-    border-radius: 50%;
-    background-color: var(--r-link-color);
     image-rendering: crisp-edges;
     image-rendering: pixelated;
     object-fit: contain;
 }
+
